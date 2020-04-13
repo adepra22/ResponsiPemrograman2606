@@ -12,8 +12,8 @@ namespace ResponsiPemrograman2606
         {
             Karyawan karyawan1 = new Karyawan("190302123", "Paijo", 3000000);
             Karyawan karyawan2 = new Karyawan("190302124", "Jono", 2000000);
-            Console.WriteLine("No NIK/Nama          Gaji Bulanan");
-            Console.WriteLine("---------------------------------");
+            Console.WriteLine("NIK/Nama                   Gaji Bulanan");
+            Console.WriteLine("---------------------------------------");
             karyawan1.DataKaryawan();
             karyawan2.DataKaryawan();
             Console.WriteLine();
